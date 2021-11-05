@@ -4,6 +4,7 @@ const db = require('../models');
 const Image = db.images;
 
 const uploadFile = async (req,res)=>{
+    console.log('test')
     try{
         console.log(req.file)
 
